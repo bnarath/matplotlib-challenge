@@ -21,7 +21,7 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
   ``` python
   DF.head()
   ```
-  ![DF](Images/DF.png)
+  ![DF](Images/photo1.png)
 
 * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
