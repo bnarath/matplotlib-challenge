@@ -45,6 +45,30 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
 * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
+``` python
+
+drug_regimen_grp = DF.groupby('Drug Regimen')
+
+summary_stats = drug_regimen_grp.aggregate(mean=('Tumor Volume (mm3)', 'mean'), median=('Tumor Volume (mm3)', 'median'), variance=('Tumor Volume (mm3)', lambda x:np.var(x, ddof=1)), std_dev = ('Tumor Volume (mm3)', lambda x:np.std(x, ddof=1)), sem = (('Tumor Volume (mm3)', lambda x: st.sem(x, ddof=1))))                  
+
+summary_stats
+
+```
+![Summary](Images/photo2.png)
+
+``` diff
+
+Though we are taking a complete data set, it has to be considered as sample NOT population. Reason being, 248 mice represents entire population of mice here to derive the study results
+#2. Because of 1, variance formula should be that of sample variance (ddof = 1, losing 1 degree  of freedom as sample mean is derived from the same data)
+#3. Because of 1, std deviation formula should be that of sample std deviation (ddof = 1, losing 1 degree  of freedom as sample mean is derived from the same data)
+#4. Most importantly, because of 1, SEM is not a relevant statistics here. SEM is the std. error of mean. It is tied to CLT (Central Limit Theorem), which says, the sample mean of "truly" randomly \
+####picked ensembles converge to the population mean with std error of mean (SEM) = population std /sqrt(of ensemble size). This is used to derive population std deviation from samples.
+####Means, if we know SEM, then std.deviation = SEM*ensemble size. 
+####The scipy implementation of SEM is std_dev/sqrt(size of array) is not useful for us. I am using SEM(ddof =1) here, just to match up with std calculation. But, rightfully, we shouldn't take SEM here.
+
+```
+
+
 * Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows  the number of mice per time point for each treatment regimen throughout the course of the study.
 
   * **NOTE:** These plots should look identical.
