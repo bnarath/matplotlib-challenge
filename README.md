@@ -58,7 +58,10 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
 * Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows  the number of mice per time point for each treatment regimen throughout the course of the study.
 
-  * **NOTE:** These plots should look identical.
+  These plots are created using matplotlib as well as pandas plots(backend is matplotlib). Please refer the ![notebook](Pymaceuticals/pymaceuticals.ipynb) for details. 
+  
+  ![BarPlot](Images/graph1.png)
+  
 
 * Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
 
