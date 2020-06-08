@@ -11,11 +11,10 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
 [2. Study Results](Pymaceuticals/data/Study_results.csv)
 
-## Instructions
+# Tasks
 
-Your tasks are to do the following:
 
-* Before beginning the analysis, check the data for duplicate mice and remove any data associated with that mouse ID.
+* Check the data for duplicate mice and remove any data associated with that mouse ID.
 
 * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
