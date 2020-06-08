@@ -23,23 +23,24 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
   ```
   ![DF head](Images/photo1.png)
   ``` python
+  
   DF.info()
   
   <class 'pandas.core.frame.DataFrame'>
-Int64Index: 1880 entries, 0 to 1892
-Data columns (total 8 columns):
- #   Column              Non-Null Count  Dtype  
----  ------              --------------  -----  
- 0   Mouse ID            1880 non-null   object 
- 1   Timepoint           1880 non-null   int64  
- 2   Tumor Volume (mm3)  1880 non-null   float64
- 3   Metastatic Sites    1880 non-null   int64  
- 4   Drug Regimen        1880 non-null   object 
- 5   Sex                 1880 non-null   object 
- 6   Age_months          1880 non-null   int64  
- 7   Weight (g)          1880 non-null   int64  
-dtypes: float64(1), int64(4), object(3)
-memory usage: 132.2+ KB
+  Int64Index: 1880 entries, 0 to 1892
+  Data columns (total 8 columns):
+   #   Column              Non-Null Count  Dtype  
+  ---  ------              --------------  -----  
+   0   Mouse ID            1880 non-null   object 
+   1   Timepoint           1880 non-null   int64  
+   2   Tumor Volume (mm3)  1880 non-null   float64
+   3   Metastatic Sites    1880 non-null   int64  
+   4   Drug Regimen        1880 non-null   object 
+   5   Sex                 1880 non-null   object 
+   6   Age_months          1880 non-null   int64  
+   7   Weight (g)          1880 non-null   int64  
+  dtypes: float64(1), int64(4), object(3)
+  memory usage: 132.2+ KB
   ```
 
 * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
