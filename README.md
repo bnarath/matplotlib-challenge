@@ -6,7 +6,9 @@
 
 In this project, we will analyze the data of a <strong>burgeoning pharmaceutical company that specializes in anti-cancer pharmaceuticals</strong>. In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. We have the complete data from their most recent animal study, in which 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. <strong>The purpose of this study is to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. We have to generate all of the tables and figures needed for the technical report of the study, also a top-level summary of the study results.</strong> 
 
-
+# Data
+[1. MetaData](Pymaceuticals/data/Mouse_metadata.csv)
+[2. MetaData](Pymaceuticals/data/Study_results.csv)
 
 ## Instructions
 
