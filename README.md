@@ -11,10 +11,17 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
 [2. Study Results](Pymaceuticals/data/Study_results.csv)
 
-# Tasks
+# Analysis
 
 
 * Check the data for duplicate mice and remove any data associated with that mouse ID.
+  Both the study results and metadata are merged to a single Data Frame
+  The data correspinds to mouse ''' 'g989' ''' has been removed as there were duplications for some of the entries.
+  
+  '''python
+  DF.head()
+  ''' 
+  ![DF](Images/DF.png)
 
 * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
