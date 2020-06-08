@@ -47,11 +47,12 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
 ``` python
 
-drug_regimen_grp = DF.groupby('Drug Regimen')
+    drug_regimen_grp = DF.groupby('Drug Regimen')
 
-summary_stats = drug_regimen_grp.aggregate(mean=('Tumor Volume (mm3)', 'mean'), median=('Tumor Volume (mm3)', 'median'), variance=('Tumor Volume (mm3)', lambda x:np.var(x, ddof=1)), std_dev = ('Tumor Volume (mm3)', lambda x:np.std(x, ddof=1)))                  
+    summary_stats = drug_regimen_grp.aggregate(mean=('Tumor Volume (mm3)', 'mean'), median=('Tumor Volume (mm3)', 'median'), variance=('Tumor Volume (mm3)', lambda x:np.var(x, ddof=1)), std_dev = ('Tumor Volume (mm3)', lambda x:np.std(x, ddof=1)), sem = (('Tumor Volume (mm3)', lambda x: st.sem(x, ddof=1))))                  
+             
 
-summary_stats
+    summary_stats
 
 ```
 ![Summary](Images/photo2.png)
