@@ -8,7 +8,7 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
 # Data
 [1. MetaData](Pymaceuticals/data/Mouse_metadata.csv)
-<p></p>
+
 [2. Study Results](Pymaceuticals/data/Study_results.csv)
 
 ## Instructions
