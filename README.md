@@ -128,10 +128,10 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
-```diff
-+ The correlation between weight and avg. tumor size is 0.95
-```
-![ScatterPlot](Images/graph6.png)
+  ```diff
+  + The correlation between weight and avg. tumor size is 0.95
+  ```
+  ![ScatterPlot](Images/graph6.png)
 
 
 ## Observations or inferences
