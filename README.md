@@ -94,7 +94,8 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
   ![Box&WhiskerPlot](Images/graph3.png)
   
   ``` diff
-  + As we have seen earlier in outlier analysis, there is an outlier (mouse c326) which shows tremendous improvement compared to other mice trated with Infubinol
+  + As we have seen earlier in outlier analysis, there is an outlier (mouse c326) which shows 
+  + tremendous improvement compared to other mice trated with Infubinol
   ```
   
   Used this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) to change the style of the outliers.
