@@ -71,6 +71,24 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
 * Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
 
+  ``` diff
+  Final tumor volume of each mouse across four of the most promising treatment regimens [Capomulin, Ramicane, Infubinol, Ceftamin]
+  ```
+  ![Table3](Images/table3.png)
+  
+  ``` diff
+  IQR of final tumor volumes of mice for the regimes [Capomulin, Ramicane, Infubinol, Ceftamin]
+  ```
+  ![Table4](Images/table4.png)
+  
+  ``` diff
+  Display of any outlier in the regimes [Capomulin, Ramicane, Infubinol, Ceftamin]
+  ```
+  ![Table5](Images/table5.png)
+    
+  ``` diff
+  + Mouse c326 shows tremendous improvement compared to other mice trated with Infubinol
+  ```
 * Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
 
   **Hint**: All four box plots should be within the same figure. Use this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) for help with changing the style of the outliers.
