@@ -90,8 +90,8 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
   + Mouse c326 shows tremendous improvement compared to other mice trated with Infubinol
   ```
 * Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
-
-  **Hint**: All four box plots should be within the same figure. Use this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) for help with changing the style of the outliers.
+  ![Box&WhiskerPlot](Images/graph3.png)
+  Used this [Matplotlib documentation page](https://matplotlib.org/gallery/pyplots/boxplot_demo_pyplot.html#sphx-glr-gallery-pyplots-boxplot-demo-pyplot-py) to change the style of the outliers.
 
 * Generate a line plot of time point versus tumor volume for a single mouse treated with Capomulin.
 
