@@ -119,6 +119,13 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
 * Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
 
+  Below dataframe and corresponding scatter plot summarize mouse weight and average tumor volume for the Capomulin regimen
+  
+  ![Table8](Images/table8.png)
+  
+  ![ScatterPlot](Images/graph5.png)
+  
+
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
 * Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
