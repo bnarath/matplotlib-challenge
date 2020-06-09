@@ -1,6 +1,6 @@
 # The Power of Plots - through Matplotlib
 
-<strong>A Data Scientist needs to be s good story teller and visualization is one of the most powerful tool to communicate a story !!!</strong>
+<strong>As a Data Scientist, I  always aim to be a good story teller,  and  I believe,  visualization is one of the most powerful tool to communicate a story !!!</strong>
 
 ![Laboratory](Images/Laboratory.jpg)
 
