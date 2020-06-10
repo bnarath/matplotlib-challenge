@@ -141,22 +141,22 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
   
   ![LinePlot](Images/graph7.png)
   
-  <br>
+   <br>
   
   ![LinePlot](Images/graph10.png)
-    <br>
+   <br>
   
 * **Which are the treatments relatively safe** ?
   <br>Some tumor treatments are known to be risky and cost lives. So we, need to ensure that, they are not reducing the tumor size (in avg), not at the cost of taking lives. Initially, all the regimen had either 25 or 24 mice. During the course of the treatment, atleast some mice died in all the regimen. Again, **Capomulin and Ramicane are significantly better** in terms of taking less lives (4 and 5 respectively!) compared to others. Need to mention that **Propriva is the worst, as it took 17 lives, which is a whopping 71%**
   
   ![LinePlot](Images/graph8.png)
-    <br>
+   <br>
 * We could see a **strong positive correlation (0.95) between weight and avg. tumor size.[ScatterPlot](Images/graph6.png)** This has to be read as follows; **tumor size reduces at the cost of weight!** This might be because of the harsh chemicals involved in the treatment. Except Ceftamin, all other treatments resulted in the reduction of average body weights; and the identified best treatments Capomulin(1.31%) and Ramicane (3.50%) belong to the top 3 highest reductions accompanying Infubinol (2.39%)
 
- ![BarPlot](Images/graph9.png)
+  ![BarPlot](Images/graph9.png)
   <br>
 * **There is bias in the experiment!!!** 
 <br>Usually comparison experiments are conducted with same environment for all. In this study, all the regimen had mice of almost equal number (25 or 24), all the mice had exactly same initial body weight. However, the initial average body weights in the regimen do not tally. **The top performing regimen Capomulin and Ramicane have significantly less initial(day 0) average body weights (20 and 20.12 respectively; not only the avg. but also the distribution) compared to that of other regimens. The reason for this needs to be clarified with Research Teams (who conducted this study)**
 
-![LinePlot](Images/graph11.png)
+  ![LinePlot](Images/graph11.png)
 
