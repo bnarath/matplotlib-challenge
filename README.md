@@ -87,7 +87,7 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
   ![Table5](Images/table5.png)
     
   ``` diff
-  + Mouse c326 shows tremendous improvement compared to other mice trated with Infubinol
+  + Though it looks like, Mouse c326 shows tremendous improvement compared to other mice treated with Infubinol, the fact is, c326 appears to be died within 5 days after significant reduction of tumor size
   ```
 * Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
   
@@ -134,6 +134,19 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
   ![ScatterPlot](Images/graph6.png)
 
 
-## Observations or inferences
+#Observations or inferences
+
+* **Which are the regimens showing improvements ?
+  **ONLY Capomulin and Ramicane are showing improvements in tumor sizes**. On day one, all the mice had a tumor size of 45 g. After 45 days, the average tumor size in Capomulin is 36.23 and in Ramicane, it is 34.95, while, in all other regimen, the average tumor sizes are more than 45
+  
+  
+* **Which are the treatments relatively safe** ?
+  Some tumor treatments are known to be risky and cost lives. So we, need to ensure that, they are not reducing the tumor size (in avg), not at the cost of taking lives. Initially, all the regimen had either 25 or 24 mice. During the course of the treatment, atleast some mice died in all the regimen. Again, **Capomulin and Ramicane are significantly better** in terms of taking less lives (4 and 5 respectively!) compared to others. Need to mention that **Propriva is the worst, as it took 17 lives, which is a whopping 71%**
+  
+  
+* We could see a **strong positive correlation (0.95) between weight and avg. tumor size.** This has to be read as follows; **tumor size reduces at the cost of weight!** This might be because of the harsh chemicals involved in the treatment. Except Ceftamin, all other treatments resulted in the reduction of average body weights; and the identified best treatments Capomulin(1.31%) and Ramicane (3.50%) belong to the top 3 highest reductions accompanying Infubinol (2.39%)
+
+ 
+* **There is bias in the experiment!!!** Usually comparison experiments are conducted with same environment for all. In this study, all the regimen had mice of almost equal number (25 or 24), all the mice had exactly same initial body weight. However, the initial average body weights in the regimen do not tally. **The top performing regimen Capomulin and Ramicane have significantly less initial(day 0) average body weights (20 and 20.12 respectively; not only the avg. but also the distribution) compared to that of other regimens. The reason for this needs to be clarified with Research Teams (who conducted this study)**
 
 
