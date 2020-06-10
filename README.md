@@ -151,7 +151,7 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
   
   ![LinePlot](Images/graph8.png)
    <br>
-* We could see a **strong positive correlation (0.95) between weight and avg. tumor size.[ScatterPlot](Images/graph6.png)** This has to be read as follows; **tumor size reduces at the cost of weight!** This might be because of the harsh chemicals involved in the treatment. Except Ceftamin, all other treatments resulted in the reduction of average body weights; and the identified best treatments Capomulin(1.31%) and Ramicane (3.50%) belong to the top 3 highest reductions accompanying Infubinol (2.39%)
+* We could see a **strong positive correlation (0.95) between weight and avg. tumor size.(Refer [this](Images/graph6.png))** This has to be read as follows; **tumor size reduces at the cost of weight!** This might be because of the harsh chemicals involved in the treatment. Except Ceftamin, all other treatments resulted in the reduction of average body weights; and the identified best treatments Capomulin(1.31%) and Ramicane (3.50%) belong to the top 3 highest reductions accompanying Infubinol (2.39%)
 
   ![BarPlot](Images/graph9.png)
   <br>
