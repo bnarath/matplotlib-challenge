@@ -163,4 +163,6 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 <br>Usually comparison experiments are conducted with same environment for all. In this study, all the regimen had mice of almost equal number (25 or 24), all the mice had exactly same initial body weight. However, the initial average body weights in the regimen do not tally. **The top performing regimen Capomulin and Ramicane have significantly less initial(day 0) average body weights (20 and 20.12 respectively; not only the avg. but also the distribution) compared to that of other regimens. The reason needs to be clarified with the Medical Research Teams**
 
   ![LinePlot](Images/graph11.png)
+   
+  * In summary, **Capomulin** appears to be better than all but **Ramicane** and shows similar performance as **Ramicane**. When it comes to **weight reduction and the deaths, Capomulin is slightly better than Ramicane**, however, when it comes to **spread to metastatic states and average tumor size, Capomulin performs slightly under Ramicane**. 
 
