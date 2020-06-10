@@ -11,6 +11,9 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
 [2. Study Results](Pymaceuticals/data/Study_results.csv)
 
+
+# Jupyter Notebook [here](Pymaceuticals/pymaceuticals.ipynb)
+
 # Analysis
 
 
