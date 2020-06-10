@@ -139,7 +139,7 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 * **Which are the regimens showing improvements ?**
   <br>**ONLY Capomulin and Ramicane are showing improvements in tumor sizes**. On day one, all the mice had a tumor size of 45 g. After 45 days, the average tumor size in Capomulin is 36.23 and in Ramicane, it is 34.95, while, in all other regimen, the average tumor sizes are more than 45. **Metastatic states (secondary spots to which tumour spreads)** are a measure of severity of tumor. Initially (day 0), all the mice had no metastatic states. However, during the course of 45 days, metastatic states increased. Again, **Capomulin and Ramicane are the regimen with the least average metastatic states** (1.48 and 1.25 respectively) compared to other regimen.
   
-  ![LinePlot](Images/graph7.png)
+  ![LinePlot](Images/graph7.png width=400)
   
    <br>
   
