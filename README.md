@@ -164,5 +164,5 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
 
   ![LinePlot](Images/graph11.png)
    
-  * In summary, **Capomulin** appears to be better than all but **Ramicane** and shows similar performance as **Ramicane**. When it comes to **weight reduction and the deaths, Capomulin is slightly better than Ramicane**, however, when it comes to **spread to metastatic states and average tumor size, Capomulin performs slightly under Ramicane**. 
+* In summary, **Capomulin** appears to be better than all but **Ramicane** and shows similar performance as **Ramicane**. When it comes to **weight reduction and the deaths, Capomulin is slightly better than Ramicane**, however, when it comes to **spread to metastatic states and average tumor size, Capomulin performs slightly under Ramicane**. 
 
