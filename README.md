@@ -134,7 +134,7 @@ In this project, we will analyze the data of a <strong>burgeoning pharmaceutical
   ![ScatterPlot](Images/graph6.png)
 
 
-#Observations or inferences
+# Observations and inferences
 
 * **Which are the regimens showing improvements ?**
   <br>**ONLY Capomulin and Ramicane are showing improvements in tumor sizes**. On day one, all the mice had a tumor size of 45 g. After 45 days, the average tumor size in Capomulin is 36.23 and in Ramicane, it is 34.95, while, in all other regimen, the average tumor sizes are more than 45
